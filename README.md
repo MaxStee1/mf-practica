@@ -78,6 +78,8 @@ Diseñar e implementar una arquitectura simple pero sólida que cubra:
 - Tipado y manejo de errores  
 - Separación de responsabilidades  
 
+---
+
 ### 📤 Módulo 4 – ETL Básico - Extracción, Transformación y Carga
 
 #### Resumen
@@ -103,6 +105,24 @@ Diseñar e implementar una arquitectura simple pero sólida que cubra:
 - Separación de responsabilidades por módulo
 
 ---
+
+### 📊 Módulo 5: Análisis de Datos con Pandas y NumPy
+
+Este módulo permite generar reportes completos de análisis de ventas a partir de datos procesados.
+
+#### Funciones principales
+- `generate_ventas_report(df)`: Genera un reporte en formato Markdown con:
+  - Resumen ejecutivo
+  - Ventas por tienda
+  - Análisis temporal (mensual y por día de la semana)
+  - Crecimiento de ventas
+  - Top 10 productos y vendedores
+  - Análisis Pareto (80/20)
+  - Detección de anomalías (outliers)
+  - Conclusiones automáticas
+
+El reporte se guarda automáticamente en la carpeta `reports/` con un timestamp en el nombre del archivo.
+
 
 
 ## 🚀 Tecnologías Utilizadas
