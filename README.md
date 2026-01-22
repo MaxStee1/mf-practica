@@ -78,6 +78,30 @@ Diseñar e implementar una arquitectura simple pero sólida que cubra:
 - Tipado y manejo de errores  
 - Separación de responsabilidades  
 
+### 📤 Módulo 4 – ETL Básico - Extracción, Transformación y Carga
+
+#### Resumen
+- Diseño e implementación de un pipeline ETL completo en Python
+- Extracción de datos desde archivos CSV con manejo de errores y encodings
+- Transformación de datos con limpieza, validación y enriquecimiento
+- Carga de datos procesados a Supabase con soporte batch y dry-run
+- Generación automática de archivos procesados, rechazados y logs del proceso
+
+#### Componentes clave
+- `extract.py`: lectura de CSV y extracción desde Supabase
+- `transform.py`: limpieza de datos, validaciones, deduplicación y cálculo de métricas
+- `load.py`: carga batch a Supabase y exportación a CSV
+- `pipeline.py`: orquestación completa del flujo ETL con logging
+- `run_etl.py`: script de ejecución con argumentos por consola
+
+#### Conceptos trabajados
+- ETL (Extract – Transform – Load)
+- Data Quality y validación de datos
+- Batch processing
+- Logging profesional en Python
+- Dry-run y ejecución segura
+- Separación de responsabilidades por módulo
+
 ---
 
 
