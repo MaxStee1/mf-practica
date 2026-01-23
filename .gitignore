@@ -19,3 +19,4 @@ wheels/
 data/processed/
 data/logs/
 data/raw/*.csv
+reports/
